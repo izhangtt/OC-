@@ -1,0 +1,16 @@
+##M应该做的事：
+
+给ViewController提供数据
+给ViewController存储数据提供接口
+提供经过抽象的业务基本组件，供Controller调度
+
+##C应该做的事：
+
+管理View Container的生命周期
+负责生成所有的View实例，并放入View Container
+监听来自View与业务有关的事件，通过与Model的合作，来完成对应事件的业务。
+
+##V应该做的事：
+
+响应与业务无关的事件，并因此引发动画效果，点击反馈（如果合适的话，尽量还是放在View去做）等。
+界面元素表达
